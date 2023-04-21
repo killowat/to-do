@@ -1,0 +1,22 @@
+{
+    "name": "vladislav/blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vladislav",
+            "email": "v.gromyka@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "twig/twig": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\Controllers\\": "app/Controllers/",
+            "app\\Models\\": "app/Models/"
+        }
+    }
+}
